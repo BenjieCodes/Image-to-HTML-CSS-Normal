@@ -1,11 +1,33 @@
-
-
-
-.img {
-  background: url(../images/background.jpg);
+.container {
+  max-width: 1200px;
 }
 
-nav {
-  float:left;
+.div1 {
+  background: url(../images/background.jpg);
+  background-size: auto;
+  overflow: auto;
+}
+
+.div2 {
   list-style: none;
+}
+
+.div2boxtop {
+  background-color: green;
+  float:left;
+}
+
+.div2boxbottom {
+  background-color: lightgrey;
+  float:left;
+}
+
+.image {
+  float: left;
+
+}
+
+footer {
+  background-color: black;
+  color: white;
 }
