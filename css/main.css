@@ -1,0 +1,11 @@
+
+
+
+.img {
+  background: url(../images/background.jpg);
+}
+
+nav {
+  float:left;
+  list-style: none;
+}
