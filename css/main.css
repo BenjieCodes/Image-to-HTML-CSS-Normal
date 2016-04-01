@@ -1,6 +1,5 @@
-.container {
-  max-width: 1200px;
-  padding: 0 auto;
+main {
+  max-width: 1100px;
 }
 
 header {
@@ -14,7 +13,7 @@ nav {
 
 
 .div1container {
-  height: 400px;
+  height: 328px;
   background: url(../images/background.jpg);
   background-size: cover;
   margin-top: 20px;
@@ -27,9 +26,10 @@ nav {
 }
 
 .div2container {
-  width: 1200px;
+  width: 600px;
   text-align: center;
   float: left;
+
 }
 
 .div2container .greenbox {
@@ -37,7 +37,7 @@ nav {
   text-align: center;
   float: left;
   background-color: #519251;
-  margin: 0 20px;
+  margin: 0 auto;
 }
 
 .greenbox li {
@@ -55,7 +55,7 @@ nav {
   text-align: center;
   float: left;
   background-color: #2C4985;
-  margin: 0 20px;
+  margin: 0 auto;
 }
 
 .bluebox li {
@@ -69,7 +69,7 @@ nav {
   text-align: center;
   float: left;
   background-color: #111111;
-  margin: 0 20px;
+  margin: 0 auto;
 }
 
 .blackbox li {
@@ -78,11 +78,37 @@ nav {
   list-style-type: none;
 }
 
+.div3container {
+  width: 900px;
+  float: left;
+}
 
+}
+.box1 {
 
+}
 
+.box2 {
 
-/*footer {
-  background-color: black;
+}
+
+.box3 {
+
+}
+
+.box4 {
+
+}
+
+.box {
+  width: 350px;
+  display: inline-block;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
   color: white;
-}*/
+  background-color: #111111;
+  float: left;
+}
