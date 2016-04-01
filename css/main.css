@@ -27,13 +27,58 @@ nav {
 }
 
 .div2container {
+  width: 1200px;
+  text-align: center;
   float: left;
 }
 
 .div2container .greenbox {
-  background-color: #519251
-  margin-right: 300px;
+  color: white;
+  text-align: center;
+  float: left;
+  background-color: #519251;
+  margin: 0 20px;
 }
+
+.greenbox li {
+  color: black;
+  background-color: #F7F7F7;
+  list-style-type: none;
+}
+
+.button {
+  background-color: white;
+}
+
+.div2container .bluebox {
+  color: white;
+  text-align: center;
+  float: left;
+  background-color: #2C4985;
+  margin: 0 20px;
+}
+
+.bluebox li {
+  color: black;
+  background-color: #F7F7F7;
+  list-style-type: none;
+}
+
+.div2container .blackbox {
+  color: white;
+  text-align: center;
+  float: left;
+  background-color: #111111;
+  margin: 0 20px;
+}
+
+.blackbox li {
+  color: black;
+  background-color: #F7F7F7;
+  list-style-type: none;
+}
+
+
 
 
 
