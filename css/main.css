@@ -5,11 +5,11 @@ main {
 header {
   overflow: hidden;
 }
+
 nav {
   list-style: none;
   float: left;
   margin-left: 0;
-
 }
 
 
@@ -36,12 +36,12 @@ nav {
   width: 1100px;
   text-align: center;
   float: left;
-  overflow: auto;
 }
 
 .div2container .all {
+  margin-top: 20px;
   width: 253px;
-  height: 300px;
+  height: 180px;
 }
 
 .div2container .greenbox {
@@ -49,19 +49,13 @@ nav {
   text-align: center;
   float: left;
   background-color: #519251;
+  margin-left: 155px;
 }
 
-.div2container .boxtext {
-  float left;
-}
-.greenbox li {
-  color: black;
-  background-color: #F7F7F7;
-  list-style-type: none;
-}
-
-.button {
-  background-color: white;
+.div2container .grid {
+  width:100%;
+  text-align: center;
+  margin: 0;
 }
 
 .div2container .bluebox {
@@ -69,31 +63,59 @@ nav {
   text-align: center;
   background-color: #2C4985;
   float:left;
+  padding:0;
+  margin-left: 15px;
 }
 
-.bluebox li {
-  color: black;
-  background-color: #F7F7F7;
-  list-style-type: none;
-}
+.bluebox .grid {
+  margin: 0;
 
+}
 .div2container .blackbox {
   color: white;
   text-align: center;
   background-color: #111111;
   float: left;
+  margin-left: 15px;
 }
 
-.blackbox li {
-  color: black;
-  background-color: #F7F7F7;
-  list-style-type: none;
+.blackbox .grid {
+  margin: 0;
 }
 
-.div3container {
-  width: 900px;
-  float: left;
+.boxtop {
+  padding-top: 25px;
 }
+
+.boxmiddle {
+  font-size: 75px;
+}
+
+.boxbottom {
+  font-size: 15px;
+  color: #8C8C8C;
+}
+
+.div2textcontainer {
+    color: black;
+    background-color: #F7F7F7;
+    list-style-type: none;
+    width: 1100px;
+    text-align: center;
+    float:left;
+}
+
+.all {
+width: 253px;
+margin-left: 154px;
+border: 1px solid #E5E5E5;
+}
+
+.greentext li{
+  color: #526065;
+}
+
+
 
 }
 .box1 {
