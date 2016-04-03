@@ -1,19 +1,40 @@
 main {
-  max-width: 1100px;
+  width: 1100px;
+  margin: 0;
 }
 
 header {
-  overflow: hidden;
+  overflow: auto;
 }
 
 nav {
-  list-style: none;
+  margin-top: 5px;
   float: left;
-  margin-left: 0;
+  font-size: 13px;
+  margin-bottom: 8px;
 }
 
+.logo {
+  margin-left: 13px;
+}
 
-.div1container {
+.home {
+  margin-left: 27px;
+}
+
+.pricing {
+  margin-left: 27px;
+  font-weight: 600;
+}
+
+.contact {
+  margin-left: 22px;
+
+
+}
+.image {
+  float: left;
+  width: 1100px;
   padding-top: 118px;
   height: 210px;
   background: url(../images/background.jpg);
@@ -21,44 +42,39 @@ nav {
   margin-bottom: 20px;
 }
 
-.div1content {
+.imagecontent {
   text-align: center;
   margin: 0px;
-  font-size: 40px;
+  font-size: 39px;
   color: white;
 }
 
-.div1content p {
+.image p {
   margin: 0;
 }
 
-.div2container {
-  width: 1100px;
-  text-align: center;
-  float: left;
-}
 
-.div2container .all {
+.boxes {
   margin-top: 20px;
   width: 253px;
   height: 180px;
 }
 
-.div2container .greenbox {
+.pricing .greenbox {
   color: white;
   text-align: center;
   float: left;
   background-color: #519251;
-  margin-left: 155px;
+  margin-left: 128px;
 }
 
-.div2container .grid {
+.pricing .grid {
   width:100%;
   text-align: center;
   margin: 0;
 }
 
-.div2container .bluebox {
+.pricing .bluebox {
   color: white;
   text-align: center;
   background-color: #2C4985;
@@ -71,7 +87,7 @@ nav {
   margin: 0;
 
 }
-.div2container .blackbox {
+.pricing .blackbox {
   color: white;
   text-align: center;
   background-color: #111111;
@@ -88,7 +104,8 @@ nav {
 }
 
 .boxmiddle {
-  font-size: 75px;
+  font-size: 79px;
+  font-weight: 100;
 }
 
 .boxbottom {
@@ -96,51 +113,107 @@ nav {
   color: #8C8C8C;
 }
 
-.div2textcontainer {
-    width: 1100px;
+.texts {
+  width: 253px;
+  text-align: center;
+  float: left;
+  margin-bottom: 43px;
+}
+
+.greentext {
     color: black;
     background-color: #F7F7F7;
     list-style-type: none;
-    text-align: center;
     float:left;
+    margin-left: 155px;
+  }
+
+.bluetext {
+    color: black;
+    background-color: #F7F7F7;
+    list-style-type: none;
+    float:left;
+    margin-left: 15px
 }
 
-.greentext .all {
+.blacktext {
+    color: black;
+    background-color: #F7F7F7;
+    list-style-type: none;
+    float:left;
+    margin-left: 15px;
+}
+
+.description .top {
+  border: 2px solid lightgrey;
+  padding: 10px;
+  font-size: 13px;
+}
+
+.description li {
+  font-size: 13px;
+  border-bottom: 2px solid lightgrey;
+  border-left: 2px solid lightgrey;
+  border-right: 2px solid lightgrey;
+  padding: 10px;
+}
+
+.buttonborder {
+  padding: 20px;
+  background: white;
+  border-bottom: 2px solid lightgrey;
+  border-left: 2px solid lightgrey;
+  border-right: 2px solid lightgrey;
+}
+
+button {
+  border-radius: 20px;
+  background: white;
+  color: #0C0C0C;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 6px 11px;
+  border-color: lightgrey;
+}
+
+.details {
   float:left;
-}
-
-.greentext li{
-  color: #526065;
+  margin-left: 20px;
 }
 
 
+.box {
+  width: 365px;
+  text-align: left;
+  float: left;
+
 
 }
+
 .box1 {
+  margin-left: 155px;
+  height: 182px;
+}
 
+.benefits {
+  font-weight: 600;
+}
+
+.instructions {
+  font-size: 13px;
 }
 
 .box2 {
-
+  margin-left: 38px;
+  height: 182px;
 }
 
 .box3 {
-
+  margin-top: 15px;
+  margin-left: 155px;
 }
 
 .box4 {
-
-}
-
-.box {
-  width: 350px;
-  display: inline-block;
-}
-
-footer {
-  width: 100%;
-  text-align: center;
-  color: white;
-  background-color: #111111;
-  float: left;
+  margin-top: 15px;
+  margin-left: 38px;
 }
